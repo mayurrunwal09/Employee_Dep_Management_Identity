@@ -30,7 +30,7 @@ const SearchEmployee = () => {
     } catch (error) {
       console.error('Search Error:', error.message);
       setSearchResult(null);
-      setError('Error fetching data. Please try again.');
+      setError('No data found,Enter valid Name');
     }
   };
 

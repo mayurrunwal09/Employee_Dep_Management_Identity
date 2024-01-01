@@ -95,7 +95,9 @@ const Salary = () => {
 
   return (
     <div>
-      <Button onClick={() => setAddFormVisible(!isAddFormVisible)}>
+      <br></br>
+    
+      <Button variant="contained" onClick={() => setAddFormVisible(!isAddFormVisible)}>
         Add Salary
       </Button>
 
@@ -127,7 +129,7 @@ const Salary = () => {
         </Paper>
       )}
 
-      <Typography variant="h3">Salary List</Typography>
+      <Typography variant="h5">Salary List</Typography>
       <TableContainer component={Paper}>
         <Table>
           <TableHead>

@@ -7,7 +7,7 @@ import {
   Button,
   Container,
   Box,
-  Snackbar,
+  Snackbar,MenuItem
 } from '@mui/material';
 
 const RegistrationPage = () => {
@@ -101,13 +101,19 @@ const RegistrationPage = () => {
 
             <TextField
               label="Gender"
-              type="text"
+              select
               fullWidth
               value={gender}
               onChange={(e) => setGender(e.target.value)}
               margin="normal"
               required
-            />
+            >
+              <MenuItem value="" disabled>
+                Select Gender
+              </MenuItem>
+              <MenuItem value="Male">Male</MenuItem>
+              <MenuItem value="Female">Female</MenuItem>
+            </TextField>
 
             <Button
               type="button"

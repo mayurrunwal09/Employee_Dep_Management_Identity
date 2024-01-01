@@ -102,7 +102,7 @@ const Employee = () => {
     <div>
       <Typography variant="h3">Employee</Typography>
 
-      <Button onClick={() => setAddFormVisible(!isAddFormVisible)}>
+      <Button variant="contained" onClick={() => setAddFormVisible(!isAddFormVisible)}>
         Add Employee
       </Button>
 
@@ -134,11 +134,14 @@ const Employee = () => {
             value={formDataAdd.gender}
             onChange={handleInputChangeAdd}
           >
+             <MenuItem value="" disabled>
+                Select Gender
+              </MenuItem>
             <MenuItem value="Male">Male</MenuItem>
             <MenuItem value="Female">Female</MenuItem>
           </TextField>
           <TextField
-            label="Date of Birth"
+            label=""
             type="date"
             name="dob"
             value={formDataAdd.dob}
@@ -151,6 +154,9 @@ const Employee = () => {
             value={formDataAdd.depName}
             onChange={handleInputChangeAdd}
           >
+             <MenuItem value="" disabled>
+                Select Department
+              </MenuItem>
             {departments && departments.map((department) => (
               <MenuItem key={department.id} value={department.depName}>
                 {department.depName}
@@ -220,6 +226,9 @@ const Employee = () => {
                           value={formDataUpdate.gender}
                           onChange={handleInputChangeUpdate}
                         >
+                          <MenuItem value="" disabled>
+                            Select Gender
+                          </MenuItem>
                           <MenuItem value="Male">Male</MenuItem>
                           <MenuItem value="Female">Female</MenuItem>
                         </TextField>
@@ -237,6 +246,9 @@ const Employee = () => {
                           value={formDataUpdate.depName}
                           onChange={handleInputChangeUpdate}
                         >
+                          <MenuItem value="" disabled>
+                            Select Department
+                          </MenuItem>
                           {departments && departments.map((department) => (
                             <MenuItem key={department.id} value={department.depName}>
                               {department.depName}
