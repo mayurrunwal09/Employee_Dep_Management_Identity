@@ -25,8 +25,8 @@ const NavBar = () => {
           </Typography>
           {authToken ? (
             <>
-              <Button color="inherit" component={Link} to="/">
-                SignIn/SignUp
+              <Button color="inherit" component={Link} to="/home">
+               Home
               </Button>
               <Button color="inherit" component={Link} to="/departments">
                 Departments
