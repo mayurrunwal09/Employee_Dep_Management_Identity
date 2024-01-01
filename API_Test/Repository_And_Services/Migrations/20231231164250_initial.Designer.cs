@@ -12,8 +12,8 @@ using Repository_And_Services.context;
 namespace Repository_And_Services.Migrations
 {
     [DbContext(typeof(MainDBContext))]
-    [Migration("20231229130703_star3")]
-    partial class star3
+    [Migration("20231231164250_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

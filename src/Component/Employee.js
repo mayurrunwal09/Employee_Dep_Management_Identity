@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import {
   Button,
   Table,
-  TableBody,
+  TableBody,  
   TableCell,
   TableContainer,
   TableHead,
@@ -13,17 +13,15 @@ import {
   Typography,
   MenuItem,
 } from '@mui/material';
-import {
-  fetchemp,
-  addemp,
-  updateemp,
-  deleteemp,
-} from '../Slices/employeeSlice';
+
 import { fetchDepartments } from '../Slices/departmentSlice';
+import { addEmployee, deleteEmployee, fetchEmployees, updateEmployee } from '../Slices/employeeSlice';
+
+
 
 const Employee = () => {
   const dispatch = useDispatch();
-  const employees = useSelector((state) => state.employee.departments);
+  const employees = useSelector((state) => state.employee.employees);
   const status = useSelector((state) => state.employee.status);
   const departments = useSelector((state) => state.department.departments);
 
@@ -32,7 +30,7 @@ const Employee = () => {
     empName: '',
     email: '',
     phoneno: '',
-    gender: '', 
+    gender: '',
     dob: '',
     depName: '',
   });
@@ -43,14 +41,14 @@ const Employee = () => {
     empName: '',
     email: '',
     phoneno: '',
-    gender: '', 
+    gender: '',
     dob: '',
     depName: '',
   });
 
   useEffect(() => {
     if (status === 'idle') {
-      dispatch(fetchemp());
+      dispatch(fetchEmployees());
       dispatch(fetchDepartments());
     }
   }, [status, dispatch]);
@@ -64,7 +62,7 @@ const Employee = () => {
   };
 
   const handleAddEmployee = () => {
-    dispatch(addemp(formDataAdd));
+    dispatch(addEmployee(formDataAdd));
     setAddFormVisible(false);
     setFormDataAdd({
       empName: '',
@@ -77,7 +75,7 @@ const Employee = () => {
   };
 
   const handleUpdateEmployee = () => {
-    dispatch(updateemp(formDataUpdate));
+    dispatch(updateEmployee(formDataUpdate));
     setUpdateEmployeeId(0);
     setFormDataUpdate({
       id: 0,
@@ -91,7 +89,7 @@ const Employee = () => {
   };
 
   const handleDeleteEmployee = (id) => {
-    dispatch(deleteemp(id));
+    dispatch(deleteEmployee(id));
   };
 
   const handleUpdateButtonClick = (id) => {
@@ -99,14 +97,6 @@ const Employee = () => {
     const selectedEmployee = employees.find((employee) => employee.id === id);
     setFormDataUpdate(selectedEmployee);
   };
-
-  if (status === 'loading') {
-    return <div>Loading...</div>;
-  }
-
-  if (!Array.isArray(employees)) {
-    return <div>Error: Unable to fetch data</div>;
-  }
 
   return (
     <div>
@@ -148,7 +138,7 @@ const Employee = () => {
             <MenuItem value="Female">Female</MenuItem>
           </TextField>
           <TextField
-            label=""
+            label="Date of Birth"
             type="date"
             name="dob"
             value={formDataAdd.dob}
@@ -161,7 +151,7 @@ const Employee = () => {
             value={formDataAdd.depName}
             onChange={handleInputChangeAdd}
           >
-            {departments.map((department) => (
+            {departments && departments.map((department) => (
               <MenuItem key={department.id} value={department.depName}>
                 {department.depName}
               </MenuItem>
@@ -171,121 +161,111 @@ const Employee = () => {
         </Paper>
       )}
 
-      <Typography variant="h3">Employee List</Typography>
-      <TableContainer component={Paper}>
-        <Table>
-          <TableHead>
-            <TableRow>
-              <TableCell>ID</TableCell>
-              <TableCell>Name</TableCell>
-              <TableCell>Email</TableCell>
-              <TableCell>Phone no</TableCell>
-              <TableCell>Gender</TableCell>
-              <TableCell>Date of Birth</TableCell>
-              <TableCell>Dep Name</TableCell>
-              <TableCell>Actions</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {employees.map((employee) => (
-              <TableRow key={employee.id}>
-                <TableCell>{employee.id}</TableCell>
-                <TableCell>{employee.empName}</TableCell>
-                <TableCell>{employee.email}</TableCell>
-                <TableCell>{employee.phoneno}</TableCell>
-                <TableCell>{employee.gender}</TableCell>
-                <TableCell>{employee.dob}</TableCell>
-                <TableCell>{employee.depName}</TableCell>
-                <TableCell>
-                  {updateEmployeeId === employee.id ? (
-                    <>
-                      <TextField
-                        label="Name"
-                        name="empName"
-                        value={formDataUpdate.empName}
-                        onChange={handleInputChangeUpdate}
-                      />
-                      <TextField
-                        label="Email"
-                        name="email"
-                        value={formDataUpdate.email}
-                        onChange={handleInputChangeUpdate}
-                      />
-                      <TextField
-                        label="Phone no"
-                        name="phoneno"
-                        value={formDataUpdate.phoneno}
-                        onChange={handleInputChangeUpdate}
-                      />
-                      <TextField
-                        select
-                        label="Gender"
-                        name="gender"
-                        value={formDataUpdate.gender}
-                        onChange={handleInputChangeUpdate}
-                      >
-                        <MenuItem value="Male">Male</MenuItem>
-                        <MenuItem value="Female">Female</MenuItem>
-                      </TextField>
-                      <TextField
-                        label="Date of Birth"
-                        type="date"
-                        name="dob"
-                        value={formDataUpdate.dob}
-                        onChange={handleInputChangeUpdate}
-                      />
-                      <TextField
-                        select
-                        label="Dep Name"
-                        name="depName"
-                        value={formDataUpdate.depName}
-                        onChange={handleInputChangeUpdate}
-                      >
-                        {departments.map((department) => (
-                          <MenuItem key={department.id} value={department.depName}>
-                            {department.depName}
-                          </MenuItem>
-                        ))}
-                      </TextField>
-                      <Button onClick={handleUpdateEmployee}>
-                        Update Employee
-                      </Button>
-                    </>
-                  ) : (
-                    <>
-                      <Button onClick={() => handleUpdateButtonClick(employee.id)}>
-                        Update
-                      </Button>
-                      <Button onClick={() => handleDeleteEmployee(employee.id)}>
-                        Delete
-                      </Button>
-                    </>
-                  )}
-                </TableCell>
+      {(status === 'loading' || status === 'idle') ? (
+        <Typography>Loading...</Typography>
+      ) : !Array.isArray(employees) ? (
+        <Typography>No data in list</Typography>
+      ) : employees.length === 0 ? (
+        <Typography>No employees available.</Typography>
+      ) : (
+        <TableContainer component={Paper}>
+          <Table>
+            <TableHead>
+              <TableRow>
+                <TableCell>ID</TableCell>
+                <TableCell>Name</TableCell>
+                <TableCell>Email</TableCell>
+                <TableCell>Phone no</TableCell>
+                <TableCell>Gender</TableCell>
+                <TableCell>Date of Birth</TableCell>
+                <TableCell>Dep Name</TableCell>
+                <TableCell>Actions</TableCell>
               </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-      </TableContainer>
+            </TableHead>
+            <TableBody>
+              {employees.map((employee) => (
+                <TableRow key={employee.id}>
+                  <TableCell>{employee.id}</TableCell>
+                  <TableCell>{employee.empName}</TableCell>
+                  <TableCell>{employee.email}</TableCell>
+                  <TableCell>{employee.phoneno}</TableCell>
+                  <TableCell>{employee.gender}</TableCell>
+                  <TableCell>{employee.dob}</TableCell>
+                  <TableCell>{employee.depName}</TableCell>
+                  <TableCell>
+                    {updateEmployeeId === employee.id ? (
+                      <>
+                        <TextField
+                          label="Name"
+                          name="empName"
+                          value={formDataUpdate.empName}
+                          onChange={handleInputChangeUpdate}
+                        />
+                        <TextField
+                          label="Email"
+                          name="email"
+                          value={formDataUpdate.email}
+                          onChange={handleInputChangeUpdate}
+                        />
+                        <TextField
+                          label="Phone no"
+                          name="phoneno"
+                          value={formDataUpdate.phoneno}
+                          onChange={handleInputChangeUpdate}
+                        />
+                        <TextField
+                          select
+                          label="Gender"
+                          name="gender"
+                          value={formDataUpdate.gender}
+                          onChange={handleInputChangeUpdate}
+                        >
+                          <MenuItem value="Male">Male</MenuItem>
+                          <MenuItem value="Female">Female</MenuItem>
+                        </TextField>
+                        <TextField
+                          label="Date of Birth"
+                          type="date"
+                          name="dob"
+                          value={formDataUpdate.dob}
+                          onChange={handleInputChangeUpdate}
+                        />
+                        <TextField
+                          select
+                          label="Dep Name"
+                          name="depName"
+                          value={formDataUpdate.depName}
+                          onChange={handleInputChangeUpdate}
+                        >
+                          {departments && departments.map((department) => (
+                            <MenuItem key={department.id} value={department.depName}>
+                              {department.depName}
+                            </MenuItem>
+                          ))}
+                        </TextField>
+                        <Button onClick={handleUpdateEmployee}>
+                          Update Employee
+                        </Button>
+                      </>
+                    ) : (
+                      <>
+                        <Button onClick={() => handleUpdateButtonClick(employee.id)}>
+                          Update
+                        </Button>
+                        <Button onClick={() => handleDeleteEmployee(employee.id)}>
+                          Delete
+                        </Button>
+                      </>
+                    )}
+                  </TableCell>
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </TableContainer>
+      )}
     </div>
   );
 };
 
 export default Employee;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,79 +1,3 @@
-
-// import React, { useState } from 'react';
-// import { Registration } from '../BaseURL/BaseUrl';
-// import { Link } from 'react-router-dom';
-
-// const RegistrationPage = () => {
-//   const [name, setName] = useState('');
-//   const [email, setEmail] = useState('');
-//   const [password, setPassword] = useState('');
-//   const [phoneNo, setPhoneNo] = useState('');
-//   const [gender, setGender] = useState('');
-
-//   const handleRegistration = async () => {
-//     const registrationData = {
-//       name,
-//       email,
-//       password,
-//       phoneno: phoneNo,
-//       gender,
-//     };
-
-//     try {
-//       const response = await Registration(registrationData);
-//       console.log(response);
-
-//     } catch (error) {
-//       console.error('Registration Error:', error);
-//     }
-//   };
-
-//   return (
-//     <div>
-//       <h2>Registration Page</h2>
-//       <form>
-//         <label>Name:</label>
-//         <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
-//         <br />
-
-//         <label>Email:</label>
-//         <input type="text" value={email} onChange={(e) => setEmail(e.target.value)} />
-//         <br />
-
-//         <label>Password:</label>
-//         <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-//         <br />
-
-//         <label>Phone Number:</label>
-//         <input type="text" value={phoneNo} onChange={(e) => setPhoneNo(e.target.value)} />
-//         <br />
-
-//         <label>Gender:</label>
-//         <input type="text" value={gender} onChange={(e) => setGender(e.target.value)} />
-//         <br />
-
-//         <button type="button" onClick={handleRegistration}>
-//           Register
-//         </button>
-//       </form>
-
-//       <p>
-//         Already have an account? <Link to="/">Login here</Link>.
-//       </p>
-//     </div>
-//   );
-// };
-
-// export default RegistrationPage;
-
-
-
-
-
-
-
-
-
 import React, { useState } from 'react';
 import { Registration } from '../BaseURL/BaseUrl';
 import { Link } from 'react-router-dom';
@@ -216,3 +140,11 @@ const RegistrationPage = () => {
 };
 
 export default RegistrationPage;
+
+
+
+
+
+
+
+

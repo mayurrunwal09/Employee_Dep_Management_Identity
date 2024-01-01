@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Repository_And_Services.context;
+using Repository_And_Services.Services.CutomService.DepartmentServices;
 using Repository_And_Services.Services.CutomService.EmployeeServices;
 using Repository_And_Services.Services.CutomService.SalaryServices;
 
@@ -9,127 +11,78 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class ConditionController : ControllerBase
     {
         private readonly IEmployeeSerive _employeeService;
         private readonly ISalaryService _salaryService;
-        private readonly MainDBContext _dbContext;
+        private readonly IDepartmentService _departmentService;
+       
 
-        public ConditionController(IEmployeeSerive employeeService, ISalaryService salaryService,MainDBContext mainDBContext)
+        public ConditionController(IEmployeeSerive employeeService, IDepartmentService departmentService, ISalaryService salaryService)
         {
             _employeeService = employeeService;
             _salaryService = salaryService;
-            _dbContext = mainDBContext;
+       
+            _departmentService = departmentService;
         }
 
-        [HttpGet("GetEmployeesByName")]
-        public async Task<IActionResult> GetEmployeesByName(string employeeName)
-        {
-            try
-            {       
-                if (string.IsNullOrEmpty(employeeName))
-                {
-                    return BadRequest("Employee name cannot be empty");
-                }
-
-              
-                var employees = await _employeeService.GetAll();
-                var filteredEmployees = employees
-                    .Where(e => e.EmpName.ToLower().Contains(employeeName.ToLower()))
-                    .ToList();
-
-                
-                var response = filteredEmployees.Select(e => new
-                {
-                    e.Id,
-                    e.EmpName,
-                    e.Email,
-                 
-                    e.Phoneno,
-                    e.Gender,
-                    e.DOB,
-                    e.DepId,
-                    e.DepName,
-                    e.SalaryAmount,
-                   
-                }).ToList();
-
-                return Ok(response);
-            }
-            catch (Exception ex)
-            {
-              
-                return StatusCode(500, "Internal server error");
-            }
-
-        }
-
-
-
-        [HttpGet("GetEmployeesBySalaryRange")]
-        public async Task<IActionResult> GetEmployeesBySalaryRange(double minSalary, double maxSalary)
+        [HttpGet("GetDepartmentWiseMonthlySalaries")]
+        public async Task<IActionResult> GetDepartmentWiseMonthlySalaries(int year)
         {
             try
             {
-                var employees = await _dbContext.Employees
-                    .Include(e => e.Departments) 
-                    .Include(e => e.Salarys) 
-                    .ToListAsync();
+                var result = await _departmentService.GetDepartmentWiseMonthlySalaryAsync(year);
 
-                var filteredEmployees = employees
-                    .Where(e => e.Salarys != null &&
-                                e.Salarys.Any(s => s.Amount >= minSalary && s.Amount <= maxSalary))
-                    .Select(e => new
-                    {
-                        e.Id,
-                        e.EmpName,
-                        e.Email,
-                        e.Phoneno,
-                        e.Gender,
-                        e.DOB,
-                        e.DepId,
-                        e.Departments.DepName, 
-                        Salary = e.Salarys.Where(s => s.Amount >= minSalary && s.Amount <= maxSalary)
-                                           .Select(s => new{s.Amount,s.Date }).ToList()
-                    })
-                    .ToList();
-
-                return Ok(filteredEmployees);
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, "Internal server error");
-            }
-        }
-
-        [HttpGet("GetDepartmentWiseMonthlySalary")]
-        public async Task<IActionResult> GetDepartmentWiseMonthlySalary(int year)
-        {
-            try
-            {
-                var salaries = await _dbContext.Salarys
-                    .Include(s => s.Employee.Departments) 
-                    .Where(s => s.Date.Year == year)
-                    .ToListAsync();
-
-                var result = salaries
-                    .GroupBy(s => new { s.Employee.Departments.Id, s.Employee.Departments.DepName, s.Date.Month })
-                    .Select(group => new
-                    {
-                        DepartmentId = group.Key.Id,
-                        DepartmentName = group.Key.DepName,
-                        Month = group.Key.Month,
-                        TotalSalary = group.Sum(s => s.Amount)
-                    })
-                    .ToList();
+                if (result == null || result.Count == 0)
+                    return NotFound($"No records found for department-wise monthly salary in the year {year}");
 
                 return Ok(result);
             }
             catch (Exception ex)
             {
-                return StatusCode(500, "Internal server error");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
 
+        [Route("GetEmployeesByNames")]
+        [HttpGet]
+        public async Task<IActionResult> GetEmployeesByNames(string employeeName)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(employeeName))
+                    return BadRequest("Employee name cannot be empty");
+
+                var employees = await _employeeService.GetEmployeesByNameAsync(employeeName);
+
+                if (employees == null || employees.Count == 0)
+                    return NotFound($"No records found for Employee with name {employeeName}");
+
+                return Ok(employees);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
+            }
+        }
+
+        [HttpGet("GetEmployeesBySalaryRanges")]
+        public async Task<IActionResult> GetEmployeesBySalaryRanges(double minSalary, double maxSalary)
+        {
+            try
+            {
+                var employees = await _employeeService.GetEmployeesBySalaryRangeAsync(minSalary, maxSalary);
+
+                if (employees == null || employees.Count == 0)
+                    return NotFound($"No records found for employees with salary in the range {minSalary} - {maxSalary}");
+
+                return Ok(employees);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
+            }
+        }
     }
 }

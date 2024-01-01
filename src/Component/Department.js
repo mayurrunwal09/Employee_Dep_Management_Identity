@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
@@ -19,6 +18,12 @@ import {
   updateDep,
   deleteDep,
 } from '../Slices/departmentSlice';
+import { useAuth } from './authContext';
+
+const getAuthenticationToken = () => {
+  const token = localStorage.getItem('accessToken');
+  return token ? `Bearer ${token}` : '';
+}
 
 const Department = () => {
   const dispatch = useDispatch();
@@ -29,16 +34,23 @@ const Department = () => {
   const [newDepName, setNewDepName] = useState('');
   const [editDepId, setEditDepId] = useState(null);
   const [editDepName, setEditDepName] = useState('');
+  const [isAdding, setIsAdding] = useState(false);
+
+  const {user} = useAuth();
 
   useEffect(() => {
-    if (status === 'idle') {
-      dispatch(fetchDepartments());
-    }
-  }, [status, dispatch]);
+    console.log("Geting department data");
+      dispatch(fetchDepartments(getAuthenticationToken()));
+  }, [dispatch]);
 
   const handleAdd = () => {
-    dispatch(addDep({ depName: newDepName }));
-    setNewDepName('');
+    if (!isAdding) {
+      setIsAdding(true);
+    } else {
+      dispatch(addDep({ depName: newDepName }));
+      setNewDepName('');
+      setIsAdding(false);
+    }
   };
 
   const handleUpdate = () => {
@@ -56,21 +68,35 @@ const Department = () => {
       <Typography variant="h3">Department List</Typography>
 
       <div>
-     
-        <Input
-          type="text"
-          placeholder="Department Name"
-          value={newDepName}
-          onChange={(e) => setNewDepName(e.target.value)}
-        />
-        <Button variant="contained" onClick={handleAdd}>
-          Add Department
-        </Button>
+        {isAdding ? (
+          <>
+            <Input
+              type="text"
+              placeholder="Department Name"
+              value={newDepName}
+              onChange={(e) => setNewDepName(e.target.value)}
+            />
+            <Button variant="contained" onClick={() => setIsAdding(false)}>
+              Cancel
+            </Button>
+            <Button variant="contained" onClick={() => {
+              dispatch(addDep({ depName: newDepName }));
+              setNewDepName('');
+              setIsAdding(false);
+            }}>
+              Add Department
+            </Button>
+          </>
+        ) : (
+          <Button variant="contained" onClick={() => setIsAdding(true)}>
+            Add Department
+          </Button>
+        )}
       </div>
 
       {status === 'loading' && <Typography>Loading...</Typography>}
       {status === 'failed' && <Typography>Error: {error}</Typography>}
-      {status === 'succeeded' && (
+      {status === 'succeeded' && departments && departments.length > 0 && (
         <TableContainer component={Paper}>
           <Table>
             <TableHead>

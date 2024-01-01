@@ -9,16 +9,14 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //[Authorize]
+    [Authorize]
     public class SalaryController : ControllerBase
     {
-        private readonly ISalaryService _empService;
-        private readonly ILogger<SalaryController> _logger;
+        private readonly ISalaryService _salaryService;
 
-        public SalaryController(ISalaryService empService, ILogger<SalaryController> logger)
+        public SalaryController(ISalaryService salaryService)
         {
-            _empService = empService;
-            _logger = logger;
+            _salaryService = salaryService;
         }
 
         [Route("GetAllSalary")]
@@ -27,15 +25,14 @@ namespace WebAPI.Controllers
         {
             try
             {
-                var employees = await _empService.GetAll();
-                if (employees == null || employees.Count == 0)
+                var sal = await _salaryService.GetAll();
+                if (sal == null || sal.Count == 0)
                     return NotFound("No records found");
 
-                return Ok(employees);
+                return Ok(sal);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while retrieving all employees");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
@@ -47,68 +44,62 @@ namespace WebAPI.Controllers
             try
             {
                 if (id <= 0)
-                    return BadRequest("Invalid Employee Id");
+                    return BadRequest("Invalid Salary Id");
 
-                var employee = await _empService.GetById(id);
-                if (employee == null)
-                    return NotFound($"No records found for Employee Id {id}");
+                var salr = await _salaryService.GetById(id);
+                if (salr == null)
+                    return NotFound($"No records found for Salary Id {id}");
 
-                return Ok(employee);
+                return Ok(salr);
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error occurred while retrieving employee with Id {id}");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
-
-
 
         [Route("InsertSalary")]
         [HttpPost]
-        public async Task<IActionResult> InsertSalary(InsertSalary categoryModel)
+        public async Task<IActionResult> InsertSalary(InsertSalary insertsalary)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var result = await _empService.Insert(categoryModel);
+                    var result = await _salaryService.Insert(insertsalary);
                     if (result)
-                        return Ok(categoryModel);
+                        return Ok(insertsalary);
                     else
                         return BadRequest("Something went wrong. Please try again later.");
                 }
                 else
-                    return BadRequest("Invalid Employee Information. Please enter valid data.");
+                    return BadRequest("Invalid Salary Information. Please enter valid data.");
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while updating employee");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
 
-
         [Route("UpdateSalary")]
         [HttpPut]
-        public async Task<IActionResult> UpdateSalary(UpdateSalary categoryModel)
+        public async Task<IActionResult> UpdateSalary(UpdateSalary updatesalary)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var result = await _empService.Update(categoryModel);
+                    var result = await _salaryService.Update(updatesalary);
                     if (result)
-                        return Ok(categoryModel);
+                        return Ok(updatesalary);
                     else
                         return BadRequest("Something went wrong. Please try again later.");
                 }
                 else
-                    return BadRequest("Invalid Employee Information. Please enter valid data.");
+                    return BadRequest("Invalid salary Information. Please enter valid data.");
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while updating employee");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
@@ -119,15 +110,14 @@ namespace WebAPI.Controllers
         {
             try
             {
-                var result = await _empService.Delete(id);
+                var result = await _salaryService.Delete(id);
                 if (result)
-                    return Ok($"Employee with Id {id} deleted successfully.");
+                    return Ok($"Salary with Id {id} deleted successfully.");
                 else
-                    return BadRequest("Employee is not deleted. Please try again later.");
+                    return BadRequest("Salary is not deleted. Please try again later.");
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error occurred while deleting employee with Id {id}");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }

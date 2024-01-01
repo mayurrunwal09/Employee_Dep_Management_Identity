@@ -15,9 +15,15 @@ namespace Repository_And_Services.Services.CutomService.EmployeeServices
         Task<EmployeeViewModel> GetById(int id);
         Task<EmployeeViewModel> GetByName(string name);
 
-        Task<bool> Insert(InserEmployee inserFood);
-        Task<bool> Update(UpdateEmployee StudentUpdateModel);
+        Task<bool> Insert(InserEmployee inserEmployee);
+        Task<bool> Update(UpdateEmployee updateEmployee);
         Task<bool> Delete(int id);
         Task<Employee> Find(Expression<Func<Employee, bool>> match);
+        Task<ICollection<EmployeeViewModel>> GetEmployeesByNameAsync(string employeeName);
+        Task<List<EmployeeViewModel>> GetEmployeesBySalaryRangeAsync(double minSalary, double maxSalary);
+
+
+
+
     }
 }

@@ -49,3 +49,107 @@ C:\Users\TGSUser070\Desktop\GitHUB\API_Test\API_Test\API_Test\Repository_And_Ser
 C:\Users\TGSUser070\Desktop\GitHUB\API_Test\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.pdb
 C:\Users\TGSUser070\Desktop\GitHUB\API_Test\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.genruntimeconfig.cache
 C:\Users\TGSUser070\Desktop\GitHUB\API_Test\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\ref\Repository_And_Services.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.deps.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.runtimeconfig.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.pdb
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.pdb
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.AssemblyReference.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfoInputs.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfo.cs
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CoreCompileInputs.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.sourcelink.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CopyComplete
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\refint\Repository_And_Services.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.pdb
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.genruntimeconfig.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\ref\Repository_And_Services.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.deps.json
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.runtimeconfig.json
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.pdb
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.pdb
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.AssemblyReference.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfoInputs.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfo.cs
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CoreCompileInputs.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CopyComplete
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\obj\Debug\net6.0\refint\Repository_And_Services.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.pdb
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.genruntimeconfig.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Repository_And_Services\obj\Debug\net6.0\ref\Repository_And_Services.dll
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.deps.json
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.runtimeconfig.json
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.dll
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.pdb
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.dll
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.pdb
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.AssemblyReference.cache
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.GeneratedMSBuildEditorConfig.editorconfig
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfoInputs.cache
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfo.cs
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CoreCompileInputs.cache
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CopyComplete
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.dll
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\refint\Repository_And_Services.dll
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.pdb
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.genruntimeconfig.cache
+G:\mayurtest\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\ref\Repository_And_Services.dll
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.deps.json
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.runtimeconfig.json
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.dll
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.pdb
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.dll
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.pdb
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.AssemblyReference.cache
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.GeneratedMSBuildEditorConfig.editorconfig
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfoInputs.cache
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfo.cs
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CoreCompileInputs.cache
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CopyComplete
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.dll
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\refint\Repository_And_Services.dll
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.pdb
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.genruntimeconfig.cache
+G:\mayurtest\New folder\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\ref\Repository_And_Services.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.deps.json
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.runtimeconfig.json
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.pdb
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.pdb
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.AssemblyReference.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfoInputs.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfo.cs
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CoreCompileInputs.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CopyComplete
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\refint\Repository_And_Services.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.pdb
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.genruntimeconfig.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\Repository_And_Services\obj\Debug\net6.0\ref\Repository_And_Services.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.deps.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.runtimeconfig.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.pdb
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.pdb
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.AssemblyReference.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfoInputs.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfo.cs
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CoreCompileInputs.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.sourcelink.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CopyComplete
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\refint\Repository_And_Services.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.pdb
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.genruntimeconfig.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\ref\Repository_And_Services.dll

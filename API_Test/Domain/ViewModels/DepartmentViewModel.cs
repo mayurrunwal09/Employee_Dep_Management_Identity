@@ -22,4 +22,11 @@ namespace Domain.ViewModels
     {
         public int Id { get; set;}
     }
+    public class DepartmentWiseMonthlySalaryViewModel
+    {
+        public int DepartmentId { get; set; }
+        public string DepartmentName { get; set; }
+        public int Month { get; set; }
+        public double TotalSalary { get; set; }
+    }
 }

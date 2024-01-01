@@ -1,9 +1,11 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
-import { Login } from '../BaseURL/BaseUrl';
+import { userLogin } from '../BaseURL/BaseUrl';
 
 export const loginUser = createAsyncThunk('login/loginUser', async (data) => {
-  const response = await Login(data);
+  const response = await userLogin(data);
   console.log(response);
+  localStorage.setItem('accessToken',response.token)
+  console.log(response.token)
   return response;
 });
 

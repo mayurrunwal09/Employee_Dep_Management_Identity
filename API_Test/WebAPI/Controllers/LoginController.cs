@@ -1,8 +1,10 @@
-﻿
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Domain.ViewModels;
+using WebAPI.Middleware.Auth;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity.UI.V4.Pages.Account.Internal;
 
 [Route("api/[controller]")]
 [ApiController]
@@ -10,11 +12,13 @@ public class LoginController : ControllerBase
 {
     private readonly SignInManager<ApplicationUser> _signInManager;
     private readonly UserManager<ApplicationUser> _userManager;
+    private readonly IJWTAuthManager _jwtAuthManager;
 
-    public LoginController(SignInManager<ApplicationUser> signInManager, UserManager<ApplicationUser> userManager)
+    public LoginController(SignInManager<ApplicationUser> signInManager, UserManager<ApplicationUser> userManager, IJWTAuthManager jwtAuthManager)
     {
         _signInManager = signInManager;
         _userManager = userManager;
+        _jwtAuthManager = jwtAuthManager;
     }
 
     [HttpPost("Register")]
@@ -26,7 +30,7 @@ public class LoginController : ControllerBase
             {
                 Name = model.Name,
                 UserName = model.Email,
-                Email = model.Email, // Make sure to set the email address here
+                Email = model.Email,
                 Phoneno = model.Phoneno,
                 Gender = model.Gender,
             };
@@ -35,8 +39,7 @@ public class LoginController : ControllerBase
 
             if (result.Succeeded)
             {
-                // Optionally, you may sign in the user after registration
-                // await _signInManager.SignInAsync(user, isPersistent: false);
+
 
                 return Ok("Registration successful.");
             }
@@ -47,19 +50,34 @@ public class LoginController : ControllerBase
         return BadRequest("Invalid model state.");
     }
 
-    [HttpPost("Login")]
-    public async Task<IActionResult> Login(Login model)
+    [AllowAnonymous]
+    [HttpPost("login")]
+    public async Task<IActionResult> Login([FromBody] Login model)
     {
         if (!ModelState.IsValid)
         {
             return BadRequest(new { Message = "Invalid login data", Errors = ModelState.Values.SelectMany(v => v.Errors) });
         }
 
+        var user = await _userManager.FindByNameAsync(model.Email);
+
+        if (user == null)
+        {
+            return BadRequest(new { Message = "Login failed", Errors = "Invalid login attempt" });
+        }
+
+        if (!await _userManager.CheckPasswordAsync(user, model.Password))
+        {
+            return BadRequest(new { Message = "Login failed", Errors = "Invalid login attempt" });
+        }
+
         var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, false, lockoutOnFailure: false);
 
         if (result.Succeeded)
         {
-            return Ok(new { Message = "Login successful" });
+            var token = _jwtAuthManager.GenerateJWT(user);
+
+            return Ok(new { Message = "Login successful", Token = token });
         }
 
         if (result.IsLockedOut)
@@ -71,10 +89,12 @@ public class LoginController : ControllerBase
         {
             return BadRequest(new { Message = "Two-factor authentication required", Errors = "Two-factor authentication is required for this account." });
         }
+
         if (result.IsNotAllowed)
         {
             return BadRequest(new { Message = "Login failed", Errors = "Account is not allowed to log in." });
         }
+
         return BadRequest(new { Message = "Login failed", Errors = "Invalid login attempt" });
     }
 

@@ -1,4 +1,3 @@
-// src/store.js
 import { configureStore } from '@reduxjs/toolkit';
 import departmentSlice from './Slices/departmentSlice';
 import employeeSlice from './Slices/employeeSlice';
@@ -12,7 +11,7 @@ const store = configureStore({
     salary : salarySlice,
     login : loginSlice,
 
-    // Add other reducers here if you have more slices
+    
   },
 });
 

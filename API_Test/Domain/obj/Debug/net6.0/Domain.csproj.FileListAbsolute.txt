@@ -40,3 +40,89 @@ C:\Users\TGSUser070\Desktop\GitHUB\API_Test\API_Test\API_Test\Domain\obj\Debug\n
 C:\Users\TGSUser070\Desktop\GitHUB\API_Test\API_Test\API_Test\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\TGSUser070\Desktop\GitHUB\API_Test\API_Test\API_Test\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
 C:\Users\TGSUser070\Desktop\GitHUB\API_Test\API_Test\API_Test\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.sourcelink.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\Domain\obj\Debug\net6.0\ref\Domain.dll
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.deps.json
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.dll
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.pdb
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.dll
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\refint\Domain.dll
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.pdb
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+G:\mayurtest\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\ref\Domain.dll
+G:\mayurtest\New folder\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.deps.json
+G:\mayurtest\New folder\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+G:\mayurtest\New folder\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.dll
+G:\mayurtest\New folder\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.pdb
+G:\mayurtest\New folder\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+G:\mayurtest\New folder\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\mayurtest\New folder\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+G:\mayurtest\New folder\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+G:\mayurtest\New folder\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+G:\mayurtest\New folder\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.dll
+G:\mayurtest\New folder\APITEST\API_Test\Domain\obj\Debug\net6.0\refint\Domain.dll
+G:\mayurtest\New folder\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.pdb
+G:\mayurtest\New folder\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+G:\mayurtest\New folder\APITEST\API_Test\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\bin\Debug\net6.0\Domain.pdb
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.sourcelink.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.pdb
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Domain\obj\Debug\net6.0\ref\Domain.dll

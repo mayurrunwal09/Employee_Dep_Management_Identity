@@ -1,26 +1,20 @@
 ﻿using Domain.ViewModels;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using Repository_And_Services.Services.CutomService.EmployeeServices;
-using System;
-using System.Threading.Tasks;
 
 namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-   // [Authorize]
+    [Authorize]
     public class EmployeeController : ControllerBase
     {
         private readonly IEmployeeSerive _empService;
-        private readonly ILogger<EmployeeController> _logger;
 
-        public EmployeeController(IEmployeeSerive empService, ILogger<EmployeeController> logger)
+        public EmployeeController(IEmployeeSerive empService)
         {
             _empService = empService;
-            _logger = logger;
         }
 
         [Route("GetAllEmployee")]
@@ -37,7 +31,6 @@ namespace WebAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while retrieving all employees");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
@@ -59,24 +52,21 @@ namespace WebAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error occurred while retrieving employee with Id {id}");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
 
-  
-        
         [Route("InserEmployee")]
         [HttpPost]
-        public async Task<IActionResult> InserEmployee(InserEmployee categoryModel)
+        public async Task<IActionResult> InserEmployee(InserEmployee inserEmployee)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var result = await _empService.Insert(categoryModel);
+                    var result = await _empService.Insert(inserEmployee);
                     if (result)
-                        return Ok(categoryModel);
+                        return Ok(inserEmployee);
                     else
                         return BadRequest("Something went wrong. Please try again later.");
                 }
@@ -85,23 +75,21 @@ namespace WebAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while updating employee");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
-        
 
         [Route("UpdateEmployee")]
         [HttpPut]
-        public async Task<IActionResult> UpdateEmployee(UpdateEmployee categoryModel)
+        public async Task<IActionResult> UpdateEmployee(UpdateEmployee updateEmployee)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var result = await _empService.Update(categoryModel);
+                    var result = await _empService.Update(updateEmployee);
                     if (result)
-                        return Ok(categoryModel);
+                        return Ok(updateEmployee);
                     else
                         return BadRequest("Something went wrong. Please try again later.");
                 }
@@ -110,7 +98,6 @@ namespace WebAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while updating employee");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
@@ -129,7 +116,6 @@ namespace WebAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error occurred while deleting employee with Id {id}");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }

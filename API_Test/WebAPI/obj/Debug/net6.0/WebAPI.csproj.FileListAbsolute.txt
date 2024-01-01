@@ -313,3 +313,635 @@ C:\Users\TGSUser070\Desktop\GitHUB\API_Test\API_Test\API_Test\WebAPI\obj\Debug\n
 C:\Users\TGSUser070\Desktop\GitHUB\API_Test\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 C:\Users\TGSUser070\Desktop\GitHUB\API_Test\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 C:\Users\TGSUser070\Desktop\GitHUB\API_Test\API_Test\API_Test\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.staticwebassets.runtime.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.exe
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.deps.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.runtimeconfig.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.pdb
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Domain.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Repository_And_Services.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Domain.pdb
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Repository_And_Services.pdb
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.AssemblyReference.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfoInputs.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfo.cs
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.sourcelink.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.WebAPI.props
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\scopedcss\bundle\WebAPI.styles.css
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CopyComplete
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\refint\WebAPI.dll
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.pdb
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
+C:\Users\pavan\Desktop\Mayur\APITEST\API_Test\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.staticwebassets.runtime.json
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.exe
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.deps.json
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.runtimeconfig.json
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.pdb
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Domain.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Repository_And_Services.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Domain.pdb
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\bin\Debug\net6.0\Repository_And_Services.pdb
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.AssemblyReference.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfoInputs.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfo.cs
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.WebAPI.props
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\scopedcss\bundle\WebAPI.styles.css
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CopyComplete
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\refint\WebAPI.dll
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.pdb
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
+C:\Users\prati\Downloads\API_Test (1)\API_Test\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\appsettings.Development.json
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\appsettings.json
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.staticwebassets.runtime.json
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.exe
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.deps.json
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.runtimeconfig.json
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.pdb
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Azure.Core.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Azure.Identity.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Humanizer.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Mono.TextTemplating.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.CodeDom.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Memory.Data.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Text.Json.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Domain.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Repository_And_Services.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Domain.pdb
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Repository_And_Services.pdb
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.AssemblyReference.cache
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfoInputs.cache
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfo.cs
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CoreCompileInputs.cache
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.WebAPI.props
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.build.json
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.development.json
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\scopedcss\bundle\WebAPI.styles.css
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CopyComplete
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\refint\WebAPI.dll
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.pdb
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
+G:\mayurtest\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\appsettings.Development.json
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\appsettings.json
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.staticwebassets.runtime.json
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.exe
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.deps.json
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.runtimeconfig.json
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.pdb
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Azure.Core.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Azure.Identity.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Humanizer.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Mono.TextTemplating.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.CodeDom.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Memory.Data.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Text.Json.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Domain.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Repository_And_Services.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Domain.pdb
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Repository_And_Services.pdb
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.AssemblyReference.cache
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfoInputs.cache
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfo.cs
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CoreCompileInputs.cache
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.WebAPI.props
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.build.json
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.development.json
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\scopedcss\bundle\WebAPI.styles.css
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CopyComplete
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\refint\WebAPI.dll
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.pdb
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
+G:\mayurtest\New folder\APITEST\API_Test\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\appsettings.json
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.staticwebassets.runtime.json
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.exe
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.deps.json
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.runtimeconfig.json
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.pdb
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Humanizer.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Domain.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Repository_And_Services.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Domain.pdb
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\bin\Debug\net6.0\Repository_And_Services.pdb
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.AssemblyReference.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfoInputs.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfo.cs
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.WebAPI.props
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\scopedcss\bundle\WebAPI.styles.css
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CopyComplete
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\refint\WebAPI.dll
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.pdb
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
+C:\Users\pavan\Downloads\API_Test\API_Test\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\appsettings.Development.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\appsettings.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.staticwebassets.runtime.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.exe
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.deps.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.runtimeconfig.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\WebAPI.pdb
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Azure.Core.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Azure.Identity.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Humanizer.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.CodeDom.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Text.Json.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Domain.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Repository_And_Services.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Domain.pdb
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\bin\Debug\net6.0\Repository_And_Services.pdb
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.AssemblyReference.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfoInputs.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfo.cs
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CoreCompileInputs.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.sourcelink.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.build.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.development.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.build.WebAPI.props
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebAPI.props
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebAPI.props
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\scopedcss\bundle\WebAPI.styles.css
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.csproj.CopyComplete
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\refint\WebAPI.dll
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.pdb
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
+D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll

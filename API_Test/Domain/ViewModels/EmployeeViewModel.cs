@@ -18,7 +18,7 @@ namespace Domain.ViewModels
         public string Gender { get; set; }
         public DateTime DOB { get; set; }
         public int DepId { get; set; }
-       // public DepartmentViewModel Departments { get; set; }
+     
         public string  DepName { get; set; }
         public double SalaryAmount { get; set; }
         public virtual ICollection<Salary> Salarys { get; set; }
@@ -44,7 +44,7 @@ namespace Domain.ViewModels
         public string Gender { get; set; }
 
 
-       // [Required(ErrorMessage = "Date of Birth is required.")]
+       
 
         public DateTime DOB { get; set; }
 

@@ -113,9 +113,9 @@ namespace Repository_And_Services.Services.CutomService.SalaryServices
             }
         }
 
-        public async Task<bool> Insert(InsertSalary inserFood)
+        public async Task<bool> Insert(InsertSalary insertSalary)
         {
-            Employee employee = await  _employeeRepository.Find(d => d.EmpName == inserFood.EmpName);
+            Employee employee = await  _employeeRepository.Find(d => d.EmpName == insertSalary.EmpName);
             if (employee == null)
             {
                 return false;
@@ -123,27 +123,27 @@ namespace Repository_And_Services.Services.CutomService.SalaryServices
             Salary student = new()
             {
                 Employee = employee,
-                Amount = inserFood.Amount,
-                Date = inserFood.Date,
+                Amount = insertSalary.Amount,
+                Date = insertSalary.Date,
              
             };
             return await _repository.Insert(student);
         }
 
-        public async Task<bool> Update(UpdateSalary StudentUpdateModel)
+        public async Task<bool> Update(UpdateSalary updateSalary)
         {
-            Employee employee = await _employeeRepository.Find(d => d.EmpName == StudentUpdateModel.EmpName);
+            Employee employee = await _employeeRepository.Find(d => d.EmpName == updateSalary.EmpName);
             if (employee == null)
             {
                 return false;
             }
-            Salary student = await _repository.GetById(StudentUpdateModel.Id);
+            Salary student = await _repository.GetById(updateSalary.Id);
             if (student != null)
             {
-                student.Id = StudentUpdateModel.Id;
+                student.Id = updateSalary.Id;
                 student.Employee = employee;
-                student.Amount = StudentUpdateModel.Amount;
-                student.Date = StudentUpdateModel.Date;
+                student.Amount = updateSalary.Amount;
+                student.Date = updateSalary.Date;
           
                 var result = await _repository.Update(student);
                 return result;

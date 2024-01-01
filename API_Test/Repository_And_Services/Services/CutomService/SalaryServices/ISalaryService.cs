@@ -15,8 +15,8 @@ namespace Repository_And_Services.Services.CutomService.SalaryServices
         Task<SalaryViewModel> GetById(int id);
         Task<SalaryViewModel> GetByName(string name);
 
-        Task<bool> Insert(InsertSalary inserFood);
-        Task<bool> Update(UpdateSalary StudentUpdateModel);
+        Task<bool> Insert(InsertSalary insertSalary);
+        Task<bool> Update(UpdateSalary updateSalary);
         Task<bool> Delete(int id);
         Task<Salary> Find(Expression<Func<Salary, bool>> match);
     }

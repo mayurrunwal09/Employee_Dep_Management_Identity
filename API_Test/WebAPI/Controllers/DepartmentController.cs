@@ -1,27 +1,20 @@
-﻿
-using Domain.ViewModels;
+﻿using Domain.ViewModels;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 using Repository_And_Services.Services.CutomService.DepartmentServices;
-using System;
-using System.Threading.Tasks;
 
 namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-   // [Authorize]
+    [Authorize]
     public class DepartmentController : ControllerBase
     {
         private readonly IDepartmentService _depService;
-        private readonly ILogger<DepartmentController> _logger;
 
-        public DepartmentController(IDepartmentService depService, ILogger<DepartmentController> logger)
+        public DepartmentController(IDepartmentService depService)
         {
             _depService = depService;
-            _logger = logger;
         }
 
         [Route("GetAllDepartment")]
@@ -38,7 +31,6 @@ namespace WebAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while retrieving all departments");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
@@ -60,20 +52,19 @@ namespace WebAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error occurred while retrieving department with Id {id}");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
 
         [Route("InsertDepartment")]
         [HttpPost]
-        public async Task<IActionResult> InsertDepartment(InsertDepartment categoryModel)
+        public async Task<IActionResult> InsertDepartment(InsertDepartment insertDepartment)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var result = await _depService.Insert(categoryModel);
+                    var result = await _depService.Insert(insertDepartment);
                     if (result)
                         return Ok("Department inserted successfully");
                     else
@@ -84,22 +75,21 @@ namespace WebAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while inserting department");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
 
         [Route("UpdateDepartment")]
         [HttpPut]
-        public async Task<IActionResult> UpdateDepartment(UpdateDepartment categoryModel)
+        public async Task<IActionResult> UpdateDepartment(UpdateDepartment updateDepartment)
         {
             try
             {
                 if (ModelState.IsValid)
                 {
-                    var result = await _depService.Update(categoryModel);
+                    var result = await _depService.Update(updateDepartment);
                     if (result)
-                        return Ok(categoryModel);
+                        return Ok(updateDepartment);
                     else
                         return BadRequest("Something went wrong. Please try again later.");
                 }
@@ -108,7 +98,6 @@ namespace WebAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, "Error occurred while updating department");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
@@ -127,9 +116,9 @@ namespace WebAPI.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError(ex, $"Error occurred while deleting department with Id {id}");
                 return StatusCode(StatusCodes.Status500InternalServerError, "Internal server error");
             }
         }
+
     }
 }

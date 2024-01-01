@@ -16,9 +16,11 @@ namespace Repository_And_Services.Services.CutomService.DepartmentServices
         Task<DepartmentViewModel> GetById(int id);
         Task<DepartmentViewModel> GetByName(string name);
    
-        Task<bool> Insert(InsertDepartment inserFood);
-        Task<bool> Update(UpdateDepartment StudentUpdateModel);
+        Task<bool> Insert(InsertDepartment insertDepartment);
+        Task<bool> Update(UpdateDepartment updateDepartment);
         Task<bool> Delete(int id);
         Task<Department> Find(Expression<Func<Department, bool>> match);
+        Task<List<DepartmentWiseMonthlySalaryViewModel>> GetDepartmentWiseMonthlySalaryAsync(int year);
+
     }
 }

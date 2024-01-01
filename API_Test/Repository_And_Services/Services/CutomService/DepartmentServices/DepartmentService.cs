@@ -1,5 +1,6 @@
 ﻿using Domain.Models;
 using Domain.ViewModels;
+using Microsoft.EntityFrameworkCore;
 using Repository_And_Services.context;
 using Repository_And_Services.Repository;
 using System;
@@ -15,18 +16,20 @@ namespace Repository_And_Services.Services.CutomService.DepartmentServices
     public class DepartmentService : IDepartmentService
     {
         private readonly IRepository<Department> _repository;
-        public DepartmentService(IRepository<Department> repository)
+        private readonly MainDBContext _dbContext;
+        public DepartmentService(IRepository<Department> repository, MainDBContext dbContext)
         {
             _repository = repository;
+            _dbContext = dbContext;
         }
         public async Task<bool> Delete(int id)
         {
             if (id != null)
             {
-                Department student = await _repository.GetById(id);
-                if (student != null)
+                Department department = await _repository.GetById(id);
+                if (department != null)
                 {
-                    return await _repository.Delete(student);
+                    return await _repository.Delete(department);
                 }
                 else
                 {
@@ -46,20 +49,20 @@ namespace Repository_And_Services.Services.CutomService.DepartmentServices
 
         public async Task<ICollection<DepartmentViewModel>> GetAll()
         {
-            ICollection<DepartmentViewModel> orderViewModels = new List<DepartmentViewModel>();
-            ICollection<Department> orders = await _repository.GetAll();
-            foreach (Department order in orders)
+            ICollection<DepartmentViewModel> departmentViewModels = new List<DepartmentViewModel>();
+            ICollection<Department> departments = await _repository.GetAll();
+            foreach (Department dep in departments)
             {
-                DepartmentViewModel viewModel = new()
+                DepartmentViewModel depviewModel = new()
                 {
-                    Id = order.Id,
-                   DepName = order.DepName,
+                    Id = dep.Id,
+                   DepName = dep.DepName,
 
 
                 };
-                orderViewModels.Add(viewModel);
+                departmentViewModels.Add(depviewModel);
             }
-            return orderViewModels;
+            return departmentViewModels;
         }
 
         public async Task<DepartmentViewModel> GetById(int id)
@@ -71,12 +74,12 @@ namespace Repository_And_Services.Services.CutomService.DepartmentServices
             }
             else
             {
-                DepartmentViewModel viewModel = new()
+                DepartmentViewModel depviewModel = new()
                 {
                     Id = result.Id,
                    DepName = result.DepName,
                 };
-                return viewModel;
+                return depviewModel;
             }
         }
 
@@ -98,22 +101,22 @@ namespace Repository_And_Services.Services.CutomService.DepartmentServices
             }
         }
 
-        public Task<bool> Insert(InsertDepartment inserFood)
+        public Task<bool> Insert(InsertDepartment insertDepartment)
         {
             Department student = new()
             {
-                DepName = inserFood.DepName,    
+                DepName = insertDepartment.DepName,    
             };
             return _repository.Insert(student);
         }
 
-        public async Task<bool> Update(UpdateDepartment StudentUpdateModel)
+        public async Task<bool> Update(UpdateDepartment updateDepartment)
         {
-            Department student = await _repository.GetById(StudentUpdateModel.Id);
+            Department student = await _repository.GetById(updateDepartment.Id);
             if (student != null)
             {
-                student.Id = StudentUpdateModel.Id;
-                student.DepName = StudentUpdateModel.DepName;
+                student.Id = updateDepartment.Id;
+                student.DepName = updateDepartment.DepName;
               
 
                 var result = await _repository.Update(student);
@@ -122,6 +125,34 @@ namespace Repository_And_Services.Services.CutomService.DepartmentServices
             else
             {
                 return false;
+            }
+        }
+        public async Task<List<DepartmentWiseMonthlySalaryViewModel>> GetDepartmentWiseMonthlySalaryAsync(int year)
+        {
+            try
+            {
+                var salaries = await _dbContext.Salarys
+                    .Include(s => s.Employee.Departments)
+                    .Where(s => s.Date.Year == year)
+                    .ToListAsync();
+
+                var result = salaries
+                    .GroupBy(s => new { s.Employee.Departments.Id, s.Employee.Departments.DepName, s.Date.Month })
+                    .Select(group => new DepartmentWiseMonthlySalaryViewModel
+                    {
+                        DepartmentId = group.Key.Id,
+                        DepartmentName = group.Key.DepName,
+                        Month = group.Key.Month,
+                        TotalSalary = group.Sum(s => s.Amount)
+                    })
+                    .ToList();
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+               
+                throw;
             }
         }
     }
