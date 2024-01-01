@@ -100,7 +100,7 @@ const Employee = () => {
 
   return (
     <div>
-      <Typography variant="h3">Employee</Typography>
+      <Typography variant="h3">Employee List</Typography>
 
       <Button variant="contained" onClick={() => setAddFormVisible(!isAddFormVisible)}>
         Add Employee

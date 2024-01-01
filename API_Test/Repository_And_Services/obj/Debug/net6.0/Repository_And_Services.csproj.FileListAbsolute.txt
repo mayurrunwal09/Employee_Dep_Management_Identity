@@ -153,3 +153,21 @@ D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Service
 D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.pdb
 D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.genruntimeconfig.cache
 D:\Full stack Project\NewAPITEST\APITEST\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\ref\Repository_And_Services.dll
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.deps.json
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.runtimeconfig.json
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.dll
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Repository_And_Services.pdb
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.dll
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\bin\Debug\net6.0\Domain.pdb
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.AssemblyReference.cache
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfoInputs.cache
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.AssemblyInfo.cs
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.sourcelink.json
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.csproj.CopyComplete
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.dll
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\refint\Repository_And_Services.dll
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.pdb
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\Repository_And_Services.genruntimeconfig.cache
+C:\Users\TGSUser070\Desktop\GitHub\APITEST\API_Test\Repository_And_Services\obj\Debug\net6.0\ref\Repository_And_Services.dll
