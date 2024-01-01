@@ -58,7 +58,7 @@ const NavBar = () => {
         </Toolbar>
       </AppBar>
       <Routes>
-        <Route path="/" element={<LoginPage />} />
+        {/* <Route path="/" element={<LoginPage />} /> */}
         <Route path="/home" element={<Home />} />
         <Route path="/departments" element={<Department />} />
         <Route path="/employee" element={<Employee />} />
