@@ -96,7 +96,7 @@ const LoginPage = () => {
         open={openSnackbar}
         autoHideDuration={6000}
         onClose={() => setOpenSnackbar(false)}
-        message="Please fill in all Email and Password fields."
+        message="Please fill in  Email and Password fields."
       />
     </Container>
   );
