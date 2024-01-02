@@ -47,9 +47,9 @@ const RegistrationPage = () => {
   };
 
   return (
-    <Container maxWidth="sm">
+    <Container component="main" maxWidth="xs">
       <Box mt={5}>
-        <Typography variant="h2" align="center" gutterBottom>
+        <Typography variant="h4" align="center" gutterBottom>
           Registration Page
         </Typography>
 
@@ -139,16 +139,13 @@ const RegistrationPage = () => {
         open={openSnackbar}
         autoHideDuration={6000}
         onClose={() => setOpenSnackbar(false)}
-        message="Please fill in all required fields."
+        message="Please fill the all required fields."
       />
     </Container>
   );
 };
 
 export default RegistrationPage;
-
-
-
 
 
 

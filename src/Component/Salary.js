@@ -147,7 +147,7 @@ const Salary = () => {
                 <TableCell>{actor.id}</TableCell>
                 <TableCell>{actor.empName}</TableCell>
                 <TableCell>{actor.amount}</TableCell>
-                <TableCell>{actor.date}</TableCell>
+                <TableCell>{new Date(actor.date).toLocaleDateString()}</TableCell>
                 <TableCell>
                   {updateActorId === actor.id ? (
                     <>

@@ -196,7 +196,7 @@ const Employee = () => {
                   <TableCell>{employee.email}</TableCell>
                   <TableCell>{employee.phoneno}</TableCell>
                   <TableCell>{employee.gender}</TableCell>
-                  <TableCell>{employee.dob}</TableCell>
+                  <TableCell>{new Date(employee.dob).toLocaleDateString()}</TableCell>
                   <TableCell>{employee.depName}</TableCell>
                   <TableCell>
                     {updateEmployeeId === employee.id ? (

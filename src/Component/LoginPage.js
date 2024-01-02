@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { loginUser } from '../Slices/loginSlice';
 import { Link, useNavigate } from 'react-router-dom';
 import {
@@ -10,24 +10,32 @@ import {
   Paper,
   Grid,
   Link as MuiLink,
+  Snackbar,
 } from '@mui/material';
 
 const LoginPage = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-
-  const navigate = useNavigate();
+  const [openSnackbar, setOpenSnackbar] = useState(false);
 
   const handleLogin = () => {
+    if (!email || !password) {
+      setOpenSnackbar(true);
+      return;
+    }
+
     const loginData = {
       email,
       password,
     };
 
-    dispatch(loginUser(loginData));
-    navigate('/home');
-
+    dispatch(loginUser(loginData)).then((success) => {
+      if (success) {
+        navigate('/home');
+      }
+    });
   };
 
   return (
@@ -39,7 +47,7 @@ const LoginPage = () => {
           display: 'flex',
           flexDirection: 'column',
           alignItems: 'center',
-          marginTop: '100px', 
+          marginTop: '100px',
         }}
       >
         <Typography variant="h5" component="div" mb={4}>
@@ -53,6 +61,7 @@ const LoginPage = () => {
             fullWidth
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            required
           />
           <TextField
             label="Password"
@@ -62,6 +71,7 @@ const LoginPage = () => {
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            required
           />
           <Button
             type="button"
@@ -81,12 +91,15 @@ const LoginPage = () => {
           </Grid>
         </Grid>
       </Paper>
+
+      <Snackbar
+        open={openSnackbar}
+        autoHideDuration={6000}
+        onClose={() => setOpenSnackbar(false)}
+        message="Please fill in all Email and Password fields."
+      />
     </Container>
   );
 };
 
 export default LoginPage;
-
-
-
-
