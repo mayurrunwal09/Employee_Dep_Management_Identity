@@ -28,10 +28,7 @@ namespace Repository_And_Services.context
                 .HasForeignKey(d => d.EmpId)
                 .OnDelete(DeleteBehavior.Restrict);
 
-            modelBuilder.Entity<IdentityUserLogin<string>>(entity =>
-            {
-                entity.HasKey(e => new { e.LoginProvider, e.ProviderKey });
-            });
+
         }
     }
 }

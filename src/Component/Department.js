@@ -36,27 +36,43 @@ const Department = () => {
   const [editDepName, setEditDepName] = useState('');
   const [isAdding, setIsAdding] = useState(false);
 
-  const {user} = useAuth();
+  const { user } = useAuth();
+  const [validationError, setValidationError] = useState('');
 
   useEffect(() => {
     console.log("Geting department data");
-      dispatch(fetchDepartments(getAuthenticationToken()));
+    dispatch(fetchDepartments(getAuthenticationToken()));
   }, [dispatch]);
 
   const handleAdd = () => {
     if (!isAdding) {
       setIsAdding(true);
     } else {
+      // Validation for adding department
+      if (!newDepName.trim()) {
+        setValidationError('Department Name is required.');
+        return;
+      }
+
       dispatch(addDep({ depName: newDepName }));
       setNewDepName('');
       setIsAdding(false);
+      setValidationError('');
     }
   };
 
   const handleUpdate = () => {
+    // Validation for updating department
+    if (!editDepName.trim()) {
+      setValidationError('Department Name is required.');
+      return;
+    }
+
     dispatch(updateDep({ id: editDepId, depName: editDepName }));
     setEditDepId(null);
     setEditDepName('');
+    dispatch(fetchDepartments(getAuthenticationToken()));
+    setValidationError('');
   };
 
   const handleDelete = (id) => {
@@ -79,11 +95,7 @@ const Department = () => {
             <Button variant="contained" onClick={() => setIsAdding(false)}>
               Cancel
             </Button>
-            <Button variant="contained" onClick={() => {
-              dispatch(addDep({ depName: newDepName }));
-              setNewDepName('');
-              setIsAdding(false);
-            }}>
+            <Button variant="contained" onClick={handleAdd}>
               Add Department
             </Button>
           </>
@@ -91,6 +103,11 @@ const Department = () => {
           <Button variant="contained" onClick={() => setIsAdding(true)}>
             Add Department
           </Button>
+        )}
+        {validationError && (
+          <Typography color="error" variant="body2">
+            {validationError}
+          </Typography>
         )}
       </div>
 
@@ -103,7 +120,7 @@ const Department = () => {
               <TableRow>
                 <TableCell>ID</TableCell>
                 <TableCell>Department Name</TableCell>
-                <TableCell>Actions</TableCell>
+                <TableCell> Actions</TableCell>
               </TableRow>
             </TableHead>
             <TableBody>
@@ -154,9 +171,3 @@ const Department = () => {
 };
 
 export default Department;
-
-
-
-
-
-

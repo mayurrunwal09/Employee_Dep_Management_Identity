@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import {
   Button,
   Table,
-  TableBody,  
+  TableBody,
   TableCell,
   TableContainer,
   TableHead,
@@ -16,8 +16,6 @@ import {
 
 import { fetchDepartments } from '../Slices/departmentSlice';
 import { addEmployee, deleteEmployee, fetchEmployees, updateEmployee } from '../Slices/employeeSlice';
-
-
 
 const Employee = () => {
   const dispatch = useDispatch();
@@ -46,6 +44,9 @@ const Employee = () => {
     depName: '',
   });
 
+  const [validationErrorsAdd, setValidationErrorsAdd] = useState({});
+  const [validationErrorsUpdate, setValidationErrorsUpdate] = useState({});
+
   useEffect(() => {
     if (status === 'idle') {
       dispatch(fetchEmployees());
@@ -62,30 +63,42 @@ const Employee = () => {
   };
 
   const handleAddEmployee = () => {
-    dispatch(addEmployee(formDataAdd));
-    setAddFormVisible(false);
-    setFormDataAdd({
-      empName: '',
-      email: '',
-      phoneno: '',
-      gender: '',
-      dob: '',
-      depName: '',
-    });
+    const errors = validateAddForm(formDataAdd);
+    if (Object.keys(errors).length === 0) {
+      dispatch(addEmployee(formDataAdd));
+      setAddFormVisible(false);
+      setFormDataAdd({
+        empName: '',
+        email: '',
+        phoneno: '',
+        gender: '',
+        dob: '',
+        depName: '',
+      });
+      setValidationErrorsAdd({});
+    } else {
+      setValidationErrorsAdd(errors);
+    }
   };
 
   const handleUpdateEmployee = () => {
-    dispatch(updateEmployee(formDataUpdate));
-    setUpdateEmployeeId(0);
-    setFormDataUpdate({
-      id: 0,
-      empName: '',
-      email: '',
-      phoneno: '',
-      gender: '',
-      dob: '',
-      depName: '',
-    });
+    const errors = validateUpdateForm(formDataUpdate);
+    if (Object.keys(errors).length === 0) {
+      dispatch(updateEmployee(formDataUpdate));
+      setUpdateEmployeeId(0);
+      setFormDataUpdate({
+        id: 0,
+        empName: '',
+        email: '',
+        phoneno: '',
+        gender: '',
+        dob: '',
+        depName: '',
+      });
+      setValidationErrorsUpdate({});
+    } else {
+      setValidationErrorsUpdate(errors);
+    }
   };
 
   const handleDeleteEmployee = (id) => {
@@ -96,6 +109,87 @@ const Employee = () => {
     setUpdateEmployeeId(id);
     const selectedEmployee = employees.find((employee) => employee.id === id);
     setFormDataUpdate(selectedEmployee);
+    setValidationErrorsUpdate({});
+  };
+
+  const validateAddForm = (data) => {
+    let errors = {};
+
+    if (!data.empName.trim()) {
+      errors.empName = 'Employee Name is required.';
+    }
+
+    if (!data.email.trim()) {
+      errors.email = 'Email is required.';
+    } else if (!isValidEmail(data.email)) {
+      errors.email = 'Invalid email address.';
+    }
+
+    if (!data.phoneno.trim()) {
+      errors.phoneno = 'Phone Number is required.';
+    } else if (!isValidPhoneNumber(data.phoneno)) {
+      errors.phoneno = 'Invalid phone number.';
+    }
+
+    if (!data.gender.trim()) {
+      errors.gender = 'Gender is required.';
+    }
+
+    if (!data.dob.trim()) {
+      errors.dob = 'Date of Birth is required.';
+    }
+
+    if (!data.depName.trim()) {
+      errors.depName = 'Department Name is required.';
+    }
+
+    return errors;
+  };
+
+  const validateUpdateForm = (data) => {
+    let errors = {};
+
+    if (!data.empName.trim()) {
+      errors.empName = 'Employee Name is required.';
+    }
+
+    if (!data.email.trim()) {
+      errors.email = 'Email is required.';
+    } else if (!isValidEmail(data.email)) {
+      errors.email = 'Invalid email address.';
+    }
+
+    if (!data.phoneno.trim()) {
+      errors.phoneno = 'Phone Number is required.';
+    } else if (!isValidPhoneNumber(data.phoneno)) {
+      errors.phoneno = 'Invalid phone number.';
+    }
+
+    if (!data.gender.trim()) {
+      errors.gender = 'Gender is required.';
+    }
+
+    if (!data.dob.trim()) {
+      errors.dob = 'Date of Birth is required.';
+    }
+
+    if (!data.depName.trim()) {
+      errors.depName = 'Department Name is required.';
+    }
+
+    return errors;
+  };
+
+  const isValidEmail = (email) => {
+    
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
+  const isValidPhoneNumber = (phone) => {
+   
+    const phoneRegex = /^[0-9]{10}$/;
+    return phoneRegex.test(phone);
   };
 
   return (
@@ -114,18 +208,24 @@ const Employee = () => {
             name="empName"
             value={formDataAdd.empName}
             onChange={handleInputChangeAdd}
+            error={!!validationErrorsAdd.empName}
+            helperText={validationErrorsAdd.empName}
           />
           <TextField
             label="Email"
             name="email"
             value={formDataAdd.email}
             onChange={handleInputChangeAdd}
+            error={!!validationErrorsAdd.email}
+            helperText={validationErrorsAdd.email}
           />
           <TextField
             label="Phone no"
             name="phoneno"
             value={formDataAdd.phoneno}
             onChange={handleInputChangeAdd}
+            error={!!validationErrorsAdd.phoneno}
+            helperText={validationErrorsAdd.phoneno}
           />
           <TextField
             select
@@ -133,10 +233,12 @@ const Employee = () => {
             name="gender"
             value={formDataAdd.gender}
             onChange={handleInputChangeAdd}
+            error={!!validationErrorsAdd.gender}
+            helperText={validationErrorsAdd.gender}
           >
-             <MenuItem value="" disabled>
-                Select Gender
-              </MenuItem>
+            <MenuItem value="" disabled>
+              Select Gender
+            </MenuItem>
             <MenuItem value="Male">Male</MenuItem>
             <MenuItem value="Female">Female</MenuItem>
           </TextField>
@@ -146,6 +248,8 @@ const Employee = () => {
             name="dob"
             value={formDataAdd.dob}
             onChange={handleInputChangeAdd}
+            error={!!validationErrorsAdd.dob}
+            helperText={validationErrorsAdd.dob}
           />
           <TextField
             select
@@ -153,10 +257,12 @@ const Employee = () => {
             name="depName"
             value={formDataAdd.depName}
             onChange={handleInputChangeAdd}
+            error={!!validationErrorsAdd.depName}
+            helperText={validationErrorsAdd.depName}
           >
-             <MenuItem value="" disabled>
-                Select Department
-              </MenuItem>
+            <MenuItem value="" disabled>
+              Select Department
+            </MenuItem>
             {departments && departments.map((department) => (
               <MenuItem key={department.id} value={department.depName}>
                 {department.depName}
@@ -184,7 +290,7 @@ const Employee = () => {
                 <TableCell>Phone no</TableCell>
                 <TableCell>Gender</TableCell>
                 <TableCell>Date of Birth</TableCell>
-                <TableCell>Dep Name</TableCell>
+                <TableCell>Department Name</TableCell>
                 <TableCell>Actions</TableCell>
               </TableRow>
             </TableHead>
@@ -206,18 +312,24 @@ const Employee = () => {
                           name="empName"
                           value={formDataUpdate.empName}
                           onChange={handleInputChangeUpdate}
+                          error={!!validationErrorsUpdate.empName}
+                          helperText={validationErrorsUpdate.empName}
                         />
                         <TextField
                           label="Email"
                           name="email"
                           value={formDataUpdate.email}
                           onChange={handleInputChangeUpdate}
+                          error={!!validationErrorsUpdate.email}
+                          helperText={validationErrorsUpdate.email}
                         />
                         <TextField
                           label="Phone no"
                           name="phoneno"
                           value={formDataUpdate.phoneno}
                           onChange={handleInputChangeUpdate}
+                          error={!!validationErrorsUpdate.phoneno}
+                          helperText={validationErrorsUpdate.phoneno}
                         />
                         <TextField
                           select
@@ -225,6 +337,8 @@ const Employee = () => {
                           name="gender"
                           value={formDataUpdate.gender}
                           onChange={handleInputChangeUpdate}
+                          error={!!validationErrorsUpdate.gender}
+                          helperText={validationErrorsUpdate.gender}
                         >
                           <MenuItem value="" disabled>
                             Select Gender
@@ -238,6 +352,8 @@ const Employee = () => {
                           name="dob"
                           value={formDataUpdate.dob}
                           onChange={handleInputChangeUpdate}
+                          error={!!validationErrorsUpdate.dob}
+                          helperText={validationErrorsUpdate.dob}
                         />
                         <TextField
                           select
@@ -245,6 +361,8 @@ const Employee = () => {
                           name="depName"
                           value={formDataUpdate.depName}
                           onChange={handleInputChangeUpdate}
+                          error={!!validationErrorsUpdate.depName}
+                          helperText={validationErrorsUpdate.depName}
                         >
                           <MenuItem value="" disabled>
                             Select Department

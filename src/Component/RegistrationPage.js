@@ -7,7 +7,8 @@ import {
   Button,
   Container,
   Box,
-  Snackbar,MenuItem
+  Snackbar,
+  MenuItem
 } from '@mui/material';
 
 const RegistrationPage = () => {
@@ -18,14 +19,53 @@ const RegistrationPage = () => {
   const [gender, setGender] = useState('');
   const [registrationSuccess, setRegistrationSuccess] = useState(false);
   const [openSnackbar, setOpenSnackbar] = useState(false);
+  const [emailError, setEmailError] = useState('');
+  const [passwordError, setPasswordError] = useState('');
+  const [nameError, setNameError] = useState('');
+  const [phoneNoError, setPhoneNoError] = useState('');
+  const [genderError, setGenderError] = useState('');
 
   const handleRegistration = async () => {
-   
-    if (!name || !email || !password || !phoneNo || !gender) {
+    
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setEmailError('Invalid email format');
       setOpenSnackbar(true);
       return;
     }
 
+ 
+    const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{6,}$/;
+    if (!passwordRegex.test(password)) {
+      setPasswordError(
+        'Password must be at least 6 characters long, contain at least one letter, one number, and one special character (@$!%*#?&)'
+      );
+      setOpenSnackbar(true);
+      return;
+    }
+
+ 
+    if (!name.trim()) {
+      setNameError('Name is required');
+      setOpenSnackbar(true);
+      return;
+    }
+
+    const phoneRegex = /^\d{10}$/;
+    if (!phoneRegex.test(phoneNo)) {
+      setPhoneNoError('Invalid phone number (10 digits expected)');
+      setOpenSnackbar(true);
+      return;
+    }
+
+   
+    if (!gender) {
+      setGenderError('Gender is required');
+      setOpenSnackbar(true);
+      return;
+    }
+
+ 
     const registrationData = {
       name,
       email,
@@ -64,9 +104,14 @@ const RegistrationPage = () => {
               type="text"
               fullWidth
               value={name}
-              onChange={(e) => setName(e.target.value)}
+              onChange={(e) => {
+                setName(e.target.value);
+                setNameError('');
+              }}
               margin="normal"
               required
+              error={!!nameError}
+              helperText={nameError}
             />
 
             <TextField
@@ -74,9 +119,14 @@ const RegistrationPage = () => {
               type="email"
               fullWidth
               value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              onChange={(e) => {
+                setEmail(e.target.value);
+                setEmailError('');
+              }}
               margin="normal"
               required
+              error={!!emailError}
+              helperText={emailError}
             />
 
             <TextField
@@ -84,9 +134,14 @@ const RegistrationPage = () => {
               type="password"
               fullWidth
               value={password}
-              onChange={(e) => setPassword(e.target.value)}
+              onChange={(e) => {
+                setPassword(e.target.value);
+                setPasswordError('');
+              }}
               margin="normal"
               required
+              error={!!passwordError}
+              helperText={passwordError}
             />
 
             <TextField
@@ -94,9 +149,14 @@ const RegistrationPage = () => {
               type="tel"
               fullWidth
               value={phoneNo}
-              onChange={(e) => setPhoneNo(e.target.value)}
+              onChange={(e) => {
+                setPhoneNo(e.target.value);
+                setPhoneNoError('');
+              }}
               margin="normal"
               required
+              error={!!phoneNoError}
+              helperText={phoneNoError}
             />
 
             <TextField
@@ -104,9 +164,14 @@ const RegistrationPage = () => {
               select
               fullWidth
               value={gender}
-              onChange={(e) => setGender(e.target.value)}
+              onChange={(e) => {
+                setGender(e.target.value);
+                setGenderError('');
+              }}
               margin="normal"
               required
+              error={!!genderError}
+              helperText={genderError}
             >
               <MenuItem value="" disabled>
                 Select Gender
@@ -139,15 +204,10 @@ const RegistrationPage = () => {
         open={openSnackbar}
         autoHideDuration={6000}
         onClose={() => setOpenSnackbar(false)}
-        message="Please fill the all required fields."
+        message="Please fill in all required fields correctly."
       />
     </Container>
   );
 };
 
 export default RegistrationPage;
-
-
-
-
-

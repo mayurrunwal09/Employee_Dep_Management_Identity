@@ -40,11 +40,12 @@ const Salary = () => {
     date: '',
   });
 
+  const [validationErrorsAdd, setValidationErrorsAdd] = useState({});
+  const [validationErrorsUpdate, setValidationErrorsUpdate] = useState({});
+
   useEffect(() => {
-    if (status === 'idle') {
-      dispatch(fetchDepartments());
-    }
-  }, [status, dispatch]);
+    dispatch(fetchDepartments());
+  }, [dispatch]);
 
   const handleInputChangeAdd = (e) => {
     setFormDataAdd({ ...formDataAdd, [e.target.name]: e.target.value });
@@ -55,48 +56,94 @@ const Salary = () => {
   };
 
   const handleAddActor = () => {
-    dispatch(addDep(formDataAdd));
-    setAddFormVisible(false);
-    setFormDataAdd({
-      empName: '',
-      amount: 0,
-      date: '',
-    });
+    const errors = validateAddForm(formDataAdd);
+    if (Object.keys(errors).length === 0) {
+      dispatch(addDep(formDataAdd));
+      setAddFormVisible(false);
+      setFormDataAdd({
+        empName: '',
+        amount: 0,
+        date: '',
+      });
+      dispatch(fetchDepartments());
+      setValidationErrorsAdd({});
+    } else {
+      setValidationErrorsAdd(errors);
+    }
   };
 
   const handleUpdateActor = () => {
-    dispatch(updateDep(formDataUpdate));
-    setUpdateActorId(0);
-    setFormDataUpdate({
-      id: 0,
-      empName: '',
-      amount: 0,
-      date: '',
-    });
+    const errors = validateUpdateForm(formDataUpdate);
+    if (Object.keys(errors).length === 0) {
+      dispatch(updateDep(formDataUpdate));
+      setUpdateActorId(0);
+      setFormDataUpdate({
+        id: 0,
+        empName: '',
+        amount: 0,
+        date: '',
+      });
+      dispatch(fetchDepartments());
+      setValidationErrorsUpdate({});
+    } else {
+      setValidationErrorsUpdate(errors);
+    }
   };
 
   const handleDeleteActor = (id) => {
     dispatch(deleteDep(id));
+    dispatch(fetchDepartments());
   };
 
   const handleUpdateButtonClick = (id) => {
     setUpdateActorId(id);
     const selectedActor = actors.find((actor) => actor.id === id);
     setFormDataUpdate(selectedActor);
+    setValidationErrorsUpdate({});
   };
 
-  if (status === 'loading') {
-    return <div>Loading...</div>;
-  }
+  const validateAddForm = (data) => {
+    let errors = {};
 
-  if (!Array.isArray(actors)) {
-    return <div>Error: Unable to fetch data</div>;
-  }
+    if (!data.empName.trim()) {
+      errors.empName = 'Employee Name is required.';
+    }
+    
+    
+
+    if (data.amount <= 0) {
+      errors.amount = 'Amount must be greater than 0.';
+    }
+
+    if (!data.date.trim()) {
+      errors.date = 'Date is required.';
+    }
+
+    return errors;
+  };
+
+  const validateUpdateForm = (data) => {
+    let errors = {};
+
+    if (!data.empName.trim()) {
+      errors.empName = 'Employee Name is required.';
+    }
+
+    if (data.amount <= 0) {
+      errors.amount = 'Amount must be greater than 0.';
+    }
+
+    if (!data.date.trim()) {
+      errors.date = 'Date is required.';
+    }
+
+    return errors;
+  };
 
   return (
     <div>
-    <Typography variant="h3">Salary List</Typography>
-    
+      <Typography variant="h3">Salary List</Typography>
+
       <Button variant="contained" onClick={() => setAddFormVisible(!isAddFormVisible)}>
         Add Salary
       </Button>
@@ -110,6 +157,8 @@ const Salary = () => {
             placeholder="Employee Name"
             value={formDataAdd.empName}
             onChange={handleInputChangeAdd}
+            error={!!validationErrorsAdd.empName}
+            helperText={validationErrorsAdd.empName}
           />
           <Input
             type="number"
@@ -117,6 +166,8 @@ const Salary = () => {
             placeholder="Amount"
             value={formDataAdd.amount}
             onChange={handleInputChangeAdd}
+            error={!!validationErrorsAdd.amount}
+            helperText={validationErrorsAdd.amount}
           />
           <Input
             type="date"
@@ -124,12 +175,13 @@ const Salary = () => {
             placeholder="Date"
             value={formDataAdd.date}
             onChange={handleInputChangeAdd}
+            error={!!validationErrorsAdd.date}
+            helperText={validationErrorsAdd.date}
           />
           <Button onClick={handleAddActor}>Add Salary</Button>
         </Paper>
       )}
 
-     
       <TableContainer component={Paper}>
         <Table>
           <TableHead>
@@ -157,6 +209,8 @@ const Salary = () => {
                         placeholder="Employee Name"
                         value={formDataUpdate.empName}
                         onChange={handleInputChangeUpdate}
+                        error={!!validationErrorsUpdate.empName}
+                        helperText={validationErrorsUpdate.empName}
                       />
                       <Input
                         type="number"
@@ -164,6 +218,8 @@ const Salary = () => {
                         placeholder="Amount"
                         value={formDataUpdate.amount}
                         onChange={handleInputChangeUpdate}
+                        error={!!validationErrorsUpdate.amount}
+                        helperText={validationErrorsUpdate.amount}
                       />
                       <Input
                         type="date"
@@ -171,6 +227,8 @@ const Salary = () => {
                         placeholder="Date"
                         value={formDataUpdate.date}
                         onChange={handleInputChangeUpdate}
+                        error={!!validationErrorsUpdate.date}
+                        helperText={validationErrorsUpdate.date}
                       />
                       <Button onClick={handleUpdateActor}>Update Salary</Button>
                     </>
@@ -195,6 +253,3 @@ const Salary = () => {
 };
 
 export default Salary;
-
-
-
