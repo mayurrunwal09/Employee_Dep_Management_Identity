@@ -129,7 +129,7 @@ const Salary = () => {
         </Paper>
       )}
 
-      <Typography variant="h5">Salary List</Typography>
+     
       <TableContainer component={Paper}>
         <Table>
           <TableHead>

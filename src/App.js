@@ -16,6 +16,7 @@ function App() {
           <Container>
             <Routes>
             <Route path="/" element={<LoginPage />} /> 
+         
             </Routes>
           </Container>
         </div>
@@ -25,14 +26,5 @@ function App() {
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
 
 
