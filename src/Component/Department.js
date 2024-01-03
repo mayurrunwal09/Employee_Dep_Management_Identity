@@ -120,7 +120,7 @@ const Department = () => {
           <Table>
             <TableHead>
               <TableRow>
-                <TableCell>ID</TableCell>
+                {/* <TableCell>ID</TableCell> */}
                 <TableCell>Department Name</TableCell>
                 <TableCell> Actions</TableCell>
               </TableRow>
@@ -128,7 +128,7 @@ const Department = () => {
             <TableBody>
               {departments.map((department) => (
                 <TableRow key={department.id}>
-                  <TableCell>{department.id}</TableCell>
+                  {/* <TableCell>{department.id}</TableCell> */}
                   <TableCell>
                     {editDepId === department.id ? (
                       <Input

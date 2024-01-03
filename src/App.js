@@ -16,8 +16,7 @@ function App() {
           <Container>
             <Routes>
             <Route path="/" element={<LoginPage />} /> 
-         
-            </Routes>
+          </Routes>
           </Container>
         </div>
       </Router>
@@ -26,5 +25,6 @@ function App() {
 }
 
 export default App;
+
 
 
