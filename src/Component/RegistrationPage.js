@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Registration } from '../BaseURL/BaseUrl';
 import { Link } from 'react-router-dom';
@@ -26,7 +27,6 @@ const RegistrationPage = () => {
   const [genderError, setGenderError] = useState('');
 
   const handleRegistration = async () => {
-    
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
       setEmailError('Invalid email format');
@@ -34,17 +34,15 @@ const RegistrationPage = () => {
       return;
     }
 
- 
-    const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{6,}$/;
+    const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$/;
     if (!passwordRegex.test(password)) {
       setPasswordError(
-        'Password must be at least 6 characters long, contain at least one letter, one number, and one special character (@$!%*#?&)'
+        'Password must be at least 8 characters long, contain at least one letter, one number, and one special character (@$!%*#?&)'
       );
       setOpenSnackbar(true);
       return;
     }
 
- 
     if (!name.trim()) {
       setNameError('Name is required');
       setOpenSnackbar(true);
@@ -58,14 +56,12 @@ const RegistrationPage = () => {
       return;
     }
 
-   
     if (!gender) {
       setGenderError('Gender is required');
       setOpenSnackbar(true);
       return;
     }
 
- 
     const registrationData = {
       name,
       email,
@@ -76,12 +72,13 @@ const RegistrationPage = () => {
 
     try {
       const response = await Registration(registrationData);
-      console.log(response);
-
-      if (response.success) {
+      console.log('Response:', response);
+  
+      if (response && response.success) {
         setRegistrationSuccess(true);
       }
     } catch (error) {
+      
       console.error('Registration Error:', error);
     }
   };
@@ -193,12 +190,12 @@ const RegistrationPage = () => {
           </form>
         )}
 
-        <Box mt={2} textAlign="center">
-          <Typography variant="body1">
-            Already have an account? <Link to="/">Login here</Link>.
-          </Typography>
-        </Box>
+       <Box mt={2} textAlign="center">
+        <Typography variant="body1">
+          Already have an account? <Link to="/">Login here</Link>.
+        </Typography>
       </Box>
+    </Box>
 
       <Snackbar
         open={openSnackbar}

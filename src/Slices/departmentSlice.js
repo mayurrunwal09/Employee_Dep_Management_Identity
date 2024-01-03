@@ -16,6 +16,7 @@ export const fetchDepartments = createAsyncThunk('department/fetchDepartments', 
   return response.data;
 });
 
+
 export const addDep = createAsyncThunk('department/addDep', async (data) => {
   const response = await axios.post(`https://localhost:44331/api/Department/InsertDepartment`, data, {
     headers: {

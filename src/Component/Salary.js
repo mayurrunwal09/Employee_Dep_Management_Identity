@@ -159,6 +159,7 @@ const Salary = () => {
             onChange={handleInputChangeAdd}
             error={!!validationErrorsAdd.empName}
             helperText={validationErrorsAdd.empName}
+            validateAddForm
           />
           <Input
             type="number"

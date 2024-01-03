@@ -316,7 +316,7 @@ namespace Repository_And_Services.Migrations
                     b.HasOne("Domain.Models.Department", "Departments")
                         .WithMany("Employees")
                         .HasForeignKey("DepId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Departments");
@@ -327,7 +327,7 @@ namespace Repository_And_Services.Migrations
                     b.HasOne("Domain.Models.Employee", "Employee")
                         .WithMany("Salarys")
                         .HasForeignKey("EmpId")
-                        .OnDelete(DeleteBehavior.Restrict)
+                        .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Employee");

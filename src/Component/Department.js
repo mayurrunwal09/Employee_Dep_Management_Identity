@@ -47,8 +47,9 @@ const Department = () => {
   const handleAdd = () => {
     if (!isAdding) {
       setIsAdding(true);
+     
     } else {
-      // Validation for adding department
+     
       if (!newDepName.trim()) {
         setValidationError('Department Name is required.');
         return;
@@ -58,11 +59,12 @@ const Department = () => {
       setNewDepName('');
       setIsAdding(false);
       setValidationError('');
+      dispatch(fetchDepartments(getAuthenticationToken()));
     }
   };
 
   const handleUpdate = () => {
-    // Validation for updating department
+   
     if (!editDepName.trim()) {
       setValidationError('Department Name is required.');
       return;

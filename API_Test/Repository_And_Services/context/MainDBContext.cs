@@ -20,13 +20,13 @@ namespace Repository_And_Services.context
                 .HasOne(d => d.Departments)
                 .WithMany(d => d.Employees)
                 .HasForeignKey(d => d.DepId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Cascade);
 
             modelBuilder.Entity<Salary>()
                 .HasOne(d => d.Employee)
                 .WithMany(d => d.Salarys)
                 .HasForeignKey(d => d.EmpId)
-                .OnDelete(DeleteBehavior.Restrict);
+                .OnDelete(DeleteBehavior.Cascade);
 
 
         }

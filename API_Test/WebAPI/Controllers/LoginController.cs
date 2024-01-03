@@ -21,33 +21,31 @@ public class LoginController : ControllerBase
         _jwtAuthManager = jwtAuthManager;
     }
 
-    [HttpPost("Register")]
-    public async Task<IActionResult> Register(RegisterViewModel model)
-    {
-        if (ModelState.IsValid)
+        [HttpPost("Register")]
+        public async Task<IActionResult> Register(RegisterViewModel model)
         {
-            var user = new ApplicationUser
+            if (ModelState.IsValid)
             {
-                Name = model.Name,
-                UserName = model.Email,
-                Email = model.Email,
-                Phoneno = model.Phoneno,
-                Gender = model.Gender,
-            };
+                var user = new ApplicationUser
+                {
+                    Name = model.Name,
+                    UserName = model.Email,
+                    Email = model.Email,
+                    Phoneno = model.Phoneno,
+                    Gender = model.Gender,
+                };
 
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
             {
-
-
-                return Ok("Registration successful.");
+                return Ok(new { success = true, message = "Registration successful." });
             }
 
-            return BadRequest(result.Errors);
+            return BadRequest(new { success = false, errors = result.Errors });
         }
 
-        return BadRequest("Invalid model state.");
+        return BadRequest(new { success = false, message = "Invalid model state." });
     }
 
     [AllowAnonymous]
