@@ -33,6 +33,7 @@
  
 // };
 
+
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
@@ -56,7 +57,7 @@ export const Logout = () => {
 
   useEffect(() => {
     setOpenDialog(true);
-  }, []); 
+  }, [1000]); 
 
   return (
     <Dialog open={openDialog} fullWidth maxWidth="xs">

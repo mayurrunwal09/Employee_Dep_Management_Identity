@@ -112,9 +112,9 @@ const LoginPage = () => {
         </form>
         <Grid container justifyContent="flex-end">
           <Grid item>
-            <MuiLink component={Link} to="/register" variant="body2">
+            <Typography component={Link} to="/register" variant="body2">
               Don't have an account? Register here
-            </MuiLink>
+            </Typography>
           </Grid>
         </Grid>
       </Paper>

@@ -9,7 +9,7 @@ const store = configureStore({
     department: departmentSlice,
     employee : employeeSlice,
     salary : salarySlice,
-    login : loginSlice,
+    //login : loginSlice,
 
     
   },
