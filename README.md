@@ -26,21 +26,21 @@ Assists in analyzing salary distributions and trends.
 
 ## Table of Contents
 1-Introduction <br>
-2-Features
-Technologies Used
-Getting Started
-Prerequisites
-Installation
-Backend
-Description
-API Endpoints
-Frontend
-Description
-Screenshots
-Usage
-Contributing
-License
-Acknowledgements
+2-Features <br>
+Technologies Used <br>
+Getting Started <br>
+Prerequisites <br>
+Installation <br>
+Backend <br>
+Description  <br>
+API Endpoints <br>
+Frontend <br>
+Description <br>
+Screenshots <br>
+Usage <br>
+Contributing <br>
+License <br>
+Acknowledgements <br>
 
 
 ## Introduction
