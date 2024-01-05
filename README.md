@@ -60,7 +60,7 @@ MSSQL (as the database) <br>
 JSON Web Token (JWT) for authentication <br>
 
 ## Frontend:  <br>
-React.js <br>
+React Redux-toolkit <br>
 Material-UI for styling <br>
 React Router for navigation <br>
 
