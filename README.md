@@ -5,26 +5,26 @@ Employee Management System is a web application that allows users to manage empl
 
 ## User Authentication and Authorization:
 Secure login and access control mechanisms.
-Only authorized users can perform sensitive actions.
+Only authorized users can perform sensitive actions. <br>
 
-## Employee Registration:
+## Employee Registration: <br>
 Easy registration process for adding new employees to the system.
-Captures essential details such as name, email, password, phone number, and gender.
+Captures essential details such as name, email, password, phone number, and gender. <br>
 
-## Salary Management:
+## Salary Management: <br>
 Comprehensive salary management system.
 Allows adding, updating, and deleting salary records for each employee.
-Tracks salary amount and payment dates.
+Tracks salary amount and payment dates. <br>
 
-## Employee Search:
+## Employee Search: <br>
 Enables searching for employees based on various conditions.
-Search by employee name, department, and salary range.
+Search by employee name, department, and salary range. <br>
 
-## Department-wise Monthly Salary Reports:
+## Department-wise Monthly Salary Reports: <br>
 Provides insightful reports on monthly salaries based on departments.
-Assists in analyzing salary distributions and trends.
+Assists in analyzing salary distributions and trends. <br>
 
-## Table of Contents
+## Table of Contents <br>
 1-Introduction <br>
 2-Features <br>
 Technologies Used <br>
@@ -43,26 +43,26 @@ License <br>
 Acknowledgements <br>
 
 
-## Introduction
+## Introduction <br>
 The Employee Management System is a full-stack web application that facilitates the management of employee data, salaries, and enables efficient searching based on various conditions. It provides a user-friendly interface for HR administrators and other authorized users.
 
-## Features
+## Features <br>
 User authentication and authorization
 Employee registration and profile management
 Salary management with add, update, and delete functionality
 Employee search based on name, department, and salary range
 Department-wise monthly salary reports.
 
-## Technologies Used
-Backend:
-Asp.net core WebAPI Identity
-MSSQL (as the database)
-JSON Web Token (JWT) for authentication
-Frontend:
+## Technologies Used <br>
+Backend: <br>
+Asp.net core WebAPI Identity <br>
+MSSQL (as the database) <br>
+JSON Web Token (JWT) for authentication <br>
 
-React.js
-Material-UI for styling
-React Router for navigation
+## Frontend:  <br>
+React.js <br>
+Material-UI for styling <br>
+React Router for navigation <br>
 
 
 
