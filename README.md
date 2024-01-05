@@ -1,3 +1,73 @@
+# Employee Management System
+Employee Management System is a web application that allows users to manage employee information, perform salary-related tasks, and search for employees based on various criteria. The system is designed to streamline HR processes and enhance overall efficiency.
+
+ ## Key Features:
+
+## User Authentication and Authorization:
+Secure login and access control mechanisms.
+Only authorized users can perform sensitive actions.
+
+## Employee Registration:
+Easy registration process for adding new employees to the system.
+Captures essential details such as name, email, password, phone number, and gender.
+
+## Salary Management:
+Comprehensive salary management system.
+Allows adding, updating, and deleting salary records for each employee.
+Tracks salary amount and payment dates.
+
+## Employee Search:
+Enables searching for employees based on various conditions.
+Search by employee name, department, and salary range.
+
+## Department-wise Monthly Salary Reports:
+Provides insightful reports on monthly salaries based on departments.
+Assists in analyzing salary distributions and trends.
+
+## Table of Contents
+Introduction
+Features
+Technologies Used
+Getting Started
+Prerequisites
+Installation
+Backend
+Description
+API Endpoints
+Frontend
+Description
+Screenshots
+Usage
+Contributing
+License
+Acknowledgements
+
+
+## Introduction
+The Employee Management System is a full-stack web application that facilitates the management of employee data, salaries, and enables efficient searching based on various conditions. It provides a user-friendly interface for HR administrators and other authorized users.
+
+## Features
+User authentication and authorization
+Employee registration and profile management
+Salary management with add, update, and delete functionality
+Employee search based on name, department, and salary range
+Department-wise monthly salary reports.
+
+## Technologies Used
+Backend:
+Asp.net core WebAPI Identity
+MSSQL (as the database)
+JSON Web Token (JWT) for authentication
+Frontend:
+
+React.js
+Material-UI for styling
+React Router for navigation
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
