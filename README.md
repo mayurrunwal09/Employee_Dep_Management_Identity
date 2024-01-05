@@ -25,7 +25,7 @@ Provides insightful reports on monthly salaries based on departments.
 Assists in analyzing salary distributions and trends.
 
 ## Table of Contents
-1-Introduction
+1-Introduction <br>
 2-Features
 Technologies Used
 Getting Started
